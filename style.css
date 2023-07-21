@@ -1,0 +1,24 @@
+        body{
+            font-size: 20px;
+        }
+        img{
+            align-self: center;
+            width: 50vw;
+            height: 50vh;
+            border-radius: 2%;
+            max-width: fit-content;
+        }
+        table{
+            border: 1px solid black;
+        }
+        h1{
+            color:rgb(134, 90, 134);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 3rem;
+            max-width: fit-content;
+        }
+        h2{
+            color:rgb(134, 90, 134);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 2rem;
+        }

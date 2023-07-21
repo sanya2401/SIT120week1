@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass Task 1</title>
+    <link rel="stylesheet" href="style.css" class="css">
+    <style>
+        body {
+            background-color: lavender;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Pretty Bakery</h1>
+    <!-- Image -->
+    <img src="image/hero.jpeg" alt="Bakery Image">
+    <!-- Table giving details of items -->
+    <h2>Menu</h2>
+    <table>
+        <thead>
+            <tr>
+                <td>Item name</td>
+                <td>Calories</td>
+                <td>Price</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Apple Pie</td>
+                <td>326</td>
+                <td>$12.95</td>
+            </tr>
+            <tr>
+                <td>Strawberry pie</td>
+                <td>219</td>
+                <td>$10.70</td>
+            </tr>
+            <tr>
+                <td>Chocolate Pie</td>
+                <td>420</td>
+                <td>$20.50</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- Form -->
+    <h2>Feedback Form</h2>
+    <form action="backend.php">
+        <label for="Name">Name</label>
+        <input id="Name" type="text">
+        <br>
+        <label for="Email">Email</label>
+        <input id="Email" type="email">
+        <br>
+        <label for="Feedback">Give your feedback:</label>
+        <br>
+        <textarea name="feedback" id="Feedback" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+
+</html>
